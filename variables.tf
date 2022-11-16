@@ -1,6 +1,6 @@
 variable "aws_region" {
        description = "The AWS region to create things in." 
-       default     = "us-east-2" 
+       default     = "us-east-1" 
 }
 
 variable "key_name" { 
@@ -24,7 +24,7 @@ variable "tag_name" {
 } 
 variable "ami_id" { 
     description = "AMI for Ubuntu Ec2 instance" 
-    default     = "ami-0133a16a0d199491b" 
+    default     = "ami-09d3b3274b6c5d4aa" 
 }
 variable "versioning" {
     type        = bool
